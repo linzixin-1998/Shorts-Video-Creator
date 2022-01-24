@@ -2,7 +2,7 @@
  * @Author: muzi
  * @Date: 2022-01-24 10:50:58
  * @LastEditors: muzi
- * @LastEditTime: 2022-01-24 16:04:13
+ * @LastEditTime: 2022-01-24 16:42:48
 -->
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
@@ -32,7 +32,7 @@ const value1 = ref(0);
     <el-drawer v-model="drawer"
                title="I am the title"
                :with-header="false">
-        <span>Hi there!</span>
+        <span>Hi ad there!</span>
     </el-drawer>
 </template>
 
