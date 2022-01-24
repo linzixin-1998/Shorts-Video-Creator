@@ -5,11 +5,11 @@
  * @LastEditTime: 2022-01-24 15:01:33
 -->
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -39,8 +39,7 @@ const count = ref(0)
   </p>
 </template>
 
-<style  scoped lang="less">
-
+<style scoped lang="less">
 a {
   color: #42b983;
 }
@@ -49,8 +48,8 @@ label {
   margin: 0 0.5em;
   font-weight: bold;
 }
-h1{
-color: @red;
+h1 {
+  color: @red;
 }
 
 code {

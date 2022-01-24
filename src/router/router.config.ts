@@ -4,8 +4,9 @@
  * @LastEditors: muzi
  * @LastEditTime: 2022-01-24 16:04:44
  */
-import { RouteRecordRaw
-  // , createRouter, createWebHistory 
+import {
+  RouteRecordRaw,
+  // , createRouter, createWebHistory
 } from "vue-router";
 
 export const routes: Array<RouteRecordRaw> = [

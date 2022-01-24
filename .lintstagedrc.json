@@ -3,7 +3,7 @@
     "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "eslint . --ext .vue,.cjs,.js,.mjs,.ts,.cts,.mts --fix"
   ],
-  "src/**/*.{less,vue}": [
+  "src/**/*.{less}": [
     "stylelint --fix"
   ]
 }
