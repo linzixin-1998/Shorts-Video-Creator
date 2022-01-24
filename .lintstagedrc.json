@@ -1,6 +1,9 @@
 {
-  "**/*.{js,ts,vue,less,css}": [
-    "prettier --write \"src/**/*.ts\" \"src/**/*.vue\" \"src/**/*.less\"",
-    "eslint . --ext .vue,.cjs,.js,.mjs,.ts,.less,.cts,.mts --fix"
+  "**/*.{js,ts,vue,css}": [
+    "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
+    "eslint . --ext .vue,.cjs,.js,.mjs,.ts,.cts,.mts --fix"
+  ],
+  "src/**/*.{less,vue}": [
+    "stylelint --fix"
   ]
 }
