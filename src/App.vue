@@ -2,7 +2,7 @@
  * @Author: muzi
  * @Date: 2022-01-24 10:50:58
  * @LastEditors: muzi
- * @LastEditTime: 2022-01-24 16:56:03
+ * @LastEditTime: 2022-01-24 17:21:57
 -->
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
@@ -25,11 +25,11 @@ const value1 = ref(0);
   </div>
   <el-button type="primary" style="margin-left: 16px"> open </el-button>
   <el-drawer v-model="drawer" title="I am the title" :with-header="false">
-    <span>Hi addd there!</span>
+    <span>Hi d there!</span>
   </el-drawer>
 </template>
 
-<style>
+<style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

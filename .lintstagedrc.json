@@ -2,8 +2,5 @@
   "**/*.{js,ts,vue,css}": [
     "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "eslint . --ext .vue,.cjs,.js,.mjs,.ts,.cts,.mts --fix"
-  ],
-  "src/**/*.{less}": [
-    "stylelint --fix"
   ]
 }
